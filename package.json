@@ -1,6 +1,6 @@
 {
   "name": "@aerilym/info-dialog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple headless project info dialog component for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "build": "tsup",
+    "deploy": "pnpm build && pnpm publish",
     "dev": "tsup --watch"
   },
   "peerDependencies": {
