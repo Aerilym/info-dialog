@@ -1,7 +1,7 @@
 {
   "name": "@aerilym/info-dialog",
-  "version": "1.0.0",
-  "description": "A simple project info dialog component for React projects",
+  "version": "1.0.1",
+  "description": "A simple headless project info dialog component for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -36,7 +36,7 @@
     "info",
     "about"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "lucide-react": "^0.562.0"
   }
