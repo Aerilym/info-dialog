@@ -1,0 +1,43 @@
+{
+  "name": "@aerilym/info-dialog",
+  "version": "1.0.0",
+  "description": "A simple project info dialog component for React projects",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "react": "^19.2.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "dialog",
+    "info",
+    "about"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^0.562.0"
+  }
+}
